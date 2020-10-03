@@ -1,5 +1,5 @@
 // Получаем json
-const Api='';
+const API='';
 $.ajax({
   url: `http://api.ipstack.com/check?access_key=${API}&format=1`,
   success: getDataIp
