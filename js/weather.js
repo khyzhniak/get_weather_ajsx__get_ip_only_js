@@ -1,8 +1,7 @@
 let weather = document.getElementById('weather');
 let getIt = document.getElementById('getIt');
 let city = document.getElementById('city');
-const API = '6fd63dae63a9abad32796cd9dccce271';
-
+const API = '';
 
 // Добавляем в HTML
 function getDataWeather(data) {
